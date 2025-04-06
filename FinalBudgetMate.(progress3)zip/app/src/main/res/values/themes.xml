@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FinalBudgetMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.FinalBudgetMate" parent="Base.Theme.FinalBudgetMate"
+        />
+
+    <style name="YellowRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressTint" tools:targetApi="lollipop">@color/yellow</item>
+        <item name="android:progressBackgroundTint" tools:targetApi="lollipop">@color/grey</item>
+    </style>
+
+
+</resources>
